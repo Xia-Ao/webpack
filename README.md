@@ -104,7 +104,7 @@ module: {
 			]
 		},
 	]
-},
+}
 plugins: [
 	// html模板
 	// 独立css文件
@@ -132,7 +132,7 @@ optimization: {
 			sourceMap: true // set to true if you want JS source maps
 		})
 	]
-},
+}
 ```
 #### babel编译
 对基本的webpack4+中 [babel编译配置](https://webpack.js.org/loaders/babel-loader/),满足将一些常用的es6语法转成es5
